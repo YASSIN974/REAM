@@ -256,7 +256,7 @@ function play(guild, song) {
 }
 });
 client.on('message' , message => {
-  var prefix = "R";
+  var prefix = "x";
   if(message.author.bot) return;
  
   if(message.content.startsWith(prefix + "xo")) {
